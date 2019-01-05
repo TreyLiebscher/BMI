@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    background-color: #061328;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .formHolder {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .bmiForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .bmiForm > input, select {
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .bmiForm > label {
+    color: white;
+  }
+  
+  .submitButton {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .resultHolder {
+    width: 60%;
+    background-color: white;
+    border: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  
+  .bmiInfo {
+    background: none;
+    text-align: center;
+    
+  }
